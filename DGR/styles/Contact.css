@@ -681,8 +681,8 @@ select {
   font-family: "Suranna", serif;
   font-size: 6.4rem;
   color: #ffffff;
-  font-weight: 300;
-  width: 50%;
+  font-weight: 100;
+  width: 60%;
   line-height: 6.8rem;
 }
 @media screen and (max-width: 600px) {
@@ -768,9 +768,11 @@ select {
 .contact-us form .input-field .email-address, .contact-us form .input-field .phone-number {
   flex: 1;
 }
+
 .contact-us form textarea {
   max-width: 100rem;
 }
+
 .contact-us form #submit {
   background: #890006;
   color: #ffffff;
@@ -781,7 +783,7 @@ select {
   margin-top: 4rem;
   padding: 1.4rem 0;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
   .contact-us {
     flex-direction: column;
   }
