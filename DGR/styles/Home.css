@@ -760,7 +760,7 @@ input,button, textarea, select {
   justify-content: center;
   flex-direction: column;
   min-height: calc(100vh - 7rem);
-  background: linear-gradient(180deg, rgba(137, 0, 6, 0.46) 0%, rgba(0, 0, 0, 0.4) 85.5%), url("../Assets/hero-bg.png");
+  background: linear-gradient(180deg, rgba(190, 133, 135, 0.46) 0%, rgba(12, 12, 12, 0.64) 85.5%), url("../Assets/hero-bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   text-align: center;
@@ -795,7 +795,7 @@ input,button, textarea, select {
   line-height: 7rem;
   color: #ffffff;
   font-weight: 300;
-  font-family: "Suranna", serif;
+  font-family: "Suranna", sans-serif;
 }
 
 .hero-section .hero-content {
@@ -806,9 +806,9 @@ input,button, textarea, select {
 }
 
 .hero-section p {
-  color: #ffffff;
+  color: rgba(241, 241, 241, 1);
   font-family: "DM Sans", sans-serif;
-  line-height: 4rem;
+  line-height: 3rem;
   font-size: 1.6rem;
   width: 90%;
   max-width: 67rem;
@@ -902,17 +902,20 @@ input,button, textarea, select {
 .mission .title h1 {
   font-size: 6.4rem;
   color: #890006;
+  font-family: "Suranna", sans-serif;
   font-weight: 300;
 }
 
 .mission .title img {
   transform: translate(-7%, -60%);
+  margin-top: -150px;
 }
 
 .mission .mission-text {
+  margin-top: 250px;
   flex: 1;
   text-align: left;
-  border-top: 2px solid #890006;
+  border-top: 2px solid #e5e2e2;
   padding: 4rem 4rem 4rem 12rem;
 }
 
@@ -989,6 +992,7 @@ section.services .header h1 {
   width: 100%;
   color: #890006;
   font-weight: 300;
+  font-family: "Suranna", sans-serif;
   border-bottom: 2px solid #FFE2E4;
   padding-bottom: 2rem;
 }
@@ -1021,7 +1025,7 @@ section.services .service .service-details {
 }
 
 section.services .service .service-details .number {
-  color: #BFBFBF;
+  color: #d1cbcb;
   font-size: 12rem;
   font-family: "Suranna", serif;
 }
@@ -1030,6 +1034,7 @@ section.services .service .service-details h1 {
   color: #1A1818;
   font-family: "Suranna", serif;
   font-size: 4.8rem;
+  font-weight: 30;
 }
 
 @media screen and (max-width: 600px) {
@@ -1040,7 +1045,7 @@ section.services .service .service-details h1 {
 
 section.services .service .service-details p {
   font-size: 2rem;
-  line-height: 3.5rem;
+  line-height: 4rem;
   margin: 2rem 0;
   margin-bottom: 3.5rem;
   color: #1A1818;
@@ -1052,9 +1057,12 @@ section.services .service .service-details a {
   color: #890006;
   font-family: "DM Sans", sans-serif;
   font-size: 2rem;
-  transition: 0.9s;
+  transition: 1s;
 }
 
+section i{
+  color: black;
+}
 section.services .service .service-details a i {
   transform: scale(0.8);
 }
@@ -1134,6 +1142,10 @@ section.services.s_03 .service .service-details a {
   padding-bottom: 2rem;
 }
 
+.featured-projects h1{
+  font-weight: 90;
+}
+
 @media screen and (max-width: 600px) {
   .featured-projects .header h1 {
     font-size: 4.8rem;
@@ -1197,6 +1209,7 @@ section.services.s_03 .service .service-details a {
   grid-column: 2;
 }
 
+
 .featured-projects .featured-project .about-featured-project button {
   margin-top: 4rem;
   padding: 1.2rem 5rem;
@@ -1243,7 +1256,7 @@ section.services.s_03 .service .service-details a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, rgba(137, 0, 6, 0.16) 0%, rgba(0, 0, 0, 0.6) 85.5%), url("../Assets/luxury.png");
+  background: linear-gradient(180deg, rgba(55, 52, 52, 0.72) 0%, rgba(19, 1, 1, 0.73) 85.5%), url("../Assets/luxury.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 3rem;
